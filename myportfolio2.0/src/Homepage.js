@@ -65,7 +65,7 @@ class Homepage extends Component {
             </Col>
 
             <Col>
-            <img src="arrow.png" alt="arrow-scrbbl"/>
+            <img src="arrow.png" alt="arrow-scrbbl" id="arrow"/>
             <p class="scribbly-text"> checkout my stuff  </p>
             </Col>
           </Row>
