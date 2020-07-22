@@ -1,0 +1,17 @@
+body{
+  background-color: rgb(214, 234, 248 );
+  font-family: blog-modern;
+}
+h2{
+  font-size: 50px;
+}
+
+.vis-on-hov{
+  opacity: 0%;
+}
+
+
+@font-face{
+  src: url(fonts/MammaGamma.ttf);
+  font-family: 'blog-modern';
+}

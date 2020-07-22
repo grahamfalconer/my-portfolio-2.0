@@ -9,68 +9,42 @@ class Homepage extends Component {
   render() {
     return (
       <div className="Homepage">
-
-              <div>
-
-<Container>
-          <Row id="top-row">
-              <Col>
-                <ul className="nav nav-pills">
-                    <li role="presentation" class="active"><a href="#">Home</a></li>
-                </ul>
-              </Col>
-              <Col>
-              </Col>
-  
-            <Col>
-                <Row>
-                  <ul className="nav nav-pills">
+          <div>
+              <Container>  
+              <Row>
+                <Col>
+                  <h1> graham-falconer.com</h1>
+                </Col>
+              </Row>
+                  <Row>
                     <Col>
-                        <li role="presentation"><a href="#"> Blog </a></li> &nbsp;
+                    <p class="scribbly-text story-message">
+                        Hi There, I'm Graham, a 22 year old junior software developer from Cape Town, South Africa.
+                        My tech journey began whilst I was attending the University of Birmingham and I had to use data sets
+                        with python to construct maps in G.I.S (Geographical Information Systems).
+
+                    </p>
                     </Col>
                     <Col>
-                        <li role="presentation"><a href="#"> Projects </a></li> &nbsp;
                     </Col>
-                  </ul>
-                </Row>
-            </Col>
-          </Row>
-  
-          <Row>
-  
-            <Col>
-              <h1> graham-falconer.com</h1>
-            </Col>
-  
-          </Row>
-  
-          <Row>
-  
-            <Col className="color-col">
-              <strong class="special-p console-style"> SoftwareDeveloper</strong>
-            </Col>
-  
-            <Col>
-            </Col>
-  
-            <Col>
-            </Col>
-  
-          </Row>
-          <Row>
-            <Col>
-            </Col>
+                    <Col>
+                        <img src="arrow2.gif" alt="arrow-scrbbl" id="arrow"/>
+                        <p class="scribbly-text"> checkout my stuff !! </p>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col>
+                    <p class="scribbly-text story-message">
+                        Since then I have completed the Makers Academy Bootcamp in London, ditched the field trips 
+                        and moved onto coding full-time! 
+                    </p>
 
-            <Col>
-            </Col>
+                    </Col>
+                    <Col>
+                    </Col>
+                  </Row>
+              </Container>
 
-            <Col>
-            <img src="arrow.png" alt="arrow-scrbbl" id="arrow"/>
-            <p class="scribbly-text"> checkout my stuff  </p>
-            </Col>
-          </Row>
-        </Container>
-        <canvas></canvas>
           <nav id="bottom-helper" class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
                   <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto">
