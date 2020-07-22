@@ -1,0 +1,115 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+  animation-name: suddenlyAppear;
+  animation-duration: 1s;
+}
+
+#top-row{
+  background: linear-gradient(0deg, rgba(240,128,128,0.8) 0%, rgba(255,127,80,0.8) 100%);
+  border-radius: 20px;
+}
+
+
+h1 {
+  font-size: 65px;
+  color: lightcoral;
+}
+
+h1:hover {
+  animation-name: growOnHover;
+  animation-duration: 3s;
+} 
+
+img {
+  padding: 15px;
+  max-width: 150px;
+  max-height: 150px;
+  animation-name: suddenlyAppear;
+  animation-duration: 5s;
+}
+
+img:hover {
+  border-radius: 25px;
+  background-color: white;
+  cursor: pointer;
+}
+
+
+#bottom-helper {
+  background-color: lightcoral;
+}
+
+#bottom-helper:hover{
+  animation-name: expand-top;
+  animation-duration: 2s;
+  padding-top: 150px;
+}
+
+
+li {
+  font-size: 150%;
+  color: #5a5a5a;
+  font-family: modern-new;
+}
+
+p{
+  color: white;
+}
+
+.scribbly-text{
+  color: #5a5a5a;
+  font-family: cursive-1;
+}
+
+
+@keyframes suddenlyAppear {
+  from {opacity: 0%;}
+  to {opacity: 100%;}
+}
+
+@keyframes expand-top{
+  from{padding-top: 0px;}
+  to{padding-top:150px}
+}
+
+/* Animation */
+strong {
+  animation: animated-text 2s linear 1s 1 normal both,
+             animated-cursor 600ms linear infinite;
+}
+
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 456px;}
+  from{opacity: 0%;}
+  to{opacity:100%;}
+}
+
+@keyframes flying-text{
+  from{opacity: 0%;}
+  to{opacity: 80%;}
+  from{font-size: 50px;}
+  to{font-size: 100px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+@font-face {
+  src: url(fonts/regular_comfortable.otf);
+  font-family: 'modern-new';
+}
+
+@font-face{
+  src :url(fonts/aescrawl.ttf);
+  font-family: 'cursive-1';
+}

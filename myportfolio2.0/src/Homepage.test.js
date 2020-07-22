@@ -12,9 +12,9 @@ describe('Homepage', () => {
     expect(foo).toBe(true);
   })
 
-  it('should show text', () => {
-    const wrapper = shallow(<Homepage/>);
-    const myName = <h1>grahamfalconer.com</h1>
-    expect(wrapper).toContainReact(myName)
-  })
+  // it('should show text', () => {
+  //   const wrapper = shallow(<Homepage/>);
+  //   const myName = <h1>grahamfalconer.com</h1>
+  //   expect(wrapper).toContainReact(myName)
+  // })
 });

@@ -1,12 +1,13 @@
 import React from 'react';
-import './App.css';
-
+import './App.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Homepage from './Homepage'
 function App() {
   return (
     <div className="App">
-      <h1> Testing 123 </h1>
+      <Homepage/>
     </div>
-  );
-}
+  )
+};
 
 export default App;
