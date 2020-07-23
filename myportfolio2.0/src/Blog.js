@@ -17,7 +17,7 @@ class Blog extends Component {
           </Row>
         </Container>
 
-        <nav id="bottom-helper" class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+        <nav id="blog-bottom-helper" class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
                   <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto">
                       <li class="nav-item active">

@@ -1,0 +1,17 @@
+#bottom-helper {
+  background-color: lightcoral;
+}
+
+#bottom-helper:hover{
+  animation-name: expand-top;
+  animation-duration: 1.5s;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+@keyframes expand-top{
+  from{padding-top: 0px;}
+  to{padding-top:150px}
+  from{padding-bottom: 0px;}
+  to{padding-top:150px}
+}
